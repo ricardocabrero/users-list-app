@@ -1,0 +1,22 @@
+.header {
+    background: #101010;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    box-shadow: 0 0 3px #101010;
+    opacity: .9;
+}
+
+header h1 {
+    padding:15px 15px 15px 30px;
+    color:#fff!important;
+    text-align: left;
+}
+
+.absolute {
+    position: absolute;
+}
+
+.fixed {
+    position: fixed;
+}

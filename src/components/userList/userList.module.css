@@ -1,0 +1,15 @@
+.list{
+    display: flex;
+    margin: 80px auto 65px;
+    padding: 0 20px;
+    flex-wrap: wrap;
+    justify-content: left;
+    justify-items: stretch;
+}
+
+@media(max-width:480px){
+    .list{
+        margin: 70px auto 60px;
+        padding: 0 5px;
+    }   
+}

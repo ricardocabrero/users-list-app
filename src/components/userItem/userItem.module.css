@@ -1,0 +1,63 @@
+.item{
+    width: 19%;
+    margin: 0 .5% 20px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 0 5px #ccc;
+}
+
+@media(max-width:1024px){
+    .item{
+        width: 24%; 
+    }  
+}
+
+@media(max-width:768px){
+    .item{
+        width: 32.33%; 
+    }  
+}
+
+@media(max-width:640px){
+    .item{
+        width: 49%; 
+        margin: 0 .5% 15px;
+    }  
+}
+
+@media(max-width:370px){
+    .item{
+        width: 99%; 
+        margin: 0 .5% 12px;
+    }  
+}
+
+.item button {
+    float: right;
+    right: 30px;
+    bottom: 25px;
+    position: absolute;
+    right: 25px;
+    bottom: 25px;
+}
+
+.padding_bottom {
+    padding-bottom: 60px;
+}
+
+.full_height {
+    display: block;
+    height: 100%;
+}
+
+.auto_height{
+    height: auto;
+}
+
+.capitalize {
+    text-transform: capitalize;
+}
+
+

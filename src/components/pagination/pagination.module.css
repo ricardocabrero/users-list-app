@@ -1,0 +1,26 @@
+.pagination {
+    padding: 5px 20px 5px;
+    display: block;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background: #f7f7f7;
+    box-shadow: 0 -2px 3px #cccccc91;
+    box-sizing: border-box;
+}
+
+.pagination li {
+    flex-grow: inherit;
+    flex-shrink: inherit;
+    float: left;
+}
+
+.number_list {
+    float: left;
+    overflow: hidden;
+}
+
+.wrapper_btns{
+    float: right;
+    padding: 4px 0;
+}
